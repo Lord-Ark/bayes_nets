@@ -3,14 +3,23 @@ body {
 	background-color: white;
 }
 
+.navbar-default{
+	background-color: #f4e9e2;
+	
+}
+
+.navbar-default .navbar-brand{
+	color: #ac1111;
+}
+
 .navbar-main {
-	background-color: #0489B1;
+	background-color: #b10404;
 	margin-bottom: 0 !important;
 }
 
 .navbar-title {
 	/*change to color of the left menu text?*/
-	/*color: #0489B1 !important;*/
+	/*color: #b10404 !important;*/
 	color: #F1F4F5 !important;
 	font-size: 24px;
 	padding-left: 28px;
@@ -29,7 +38,7 @@ body {
 
 /*TODO Why*/
 .nav-sidebar > li> a.selected {
-	background-color: #01A9DB;
+	background-color: #db4601;
 	color: #F9F9F9;
 }
 
@@ -45,7 +54,7 @@ body {
 
 /*TODO change appearance when clicked */
 li > a.control {
-	color:#0489B1 !important; 
+	color:#b10404 !important; 
 	text-decoration: none !important;
 	white-space: inherit ! important;	
 }
@@ -84,49 +93,49 @@ hr {
 /* Buttons */
 .btn-bayes {
 	color:white;
-	background-color: #01A9DB;
+	background-color: #db4601;
 	width: 120px;
 }
 
 .btn-bayes:hover {
-	background-color: #63CEED;
-	color:gray;		
+	background-color: #eda163;
+	color:white;		
 }
 
 .btn-bayes:focus {
-	background-color: #63CEED;	
+	background-color: #edcd63;	
 	color:gray;
 }
 
 .btn-bayes-short {
 	color:white;
-	background-color: #01A9DB;
+	background-color: #db4601;
 	width: 70px;
 }
 
 .btn-bayes-short:hover {
-	background-color: #63CEED;
+	background-color: #edcd63;
 	color:gray;		
 }
 
 .btn-bayes-short:focus {
-	background-color: #63CEED;
+	background-color: #edcd63;
 	color:gray;	
 }
 
 .btn-bayes-grp {
 	color:white;
-	background-color: #01A9DB;
+	background-color: #db4601;
 	width: 90px;	
 }
 
 .btn-bayes-grp:hover {
-	background-color: #63CEED;
+	background-color: #edcd63;
 	color:gray;		
 }
 
 .btn-bayes-grp:focus {
-	background-color: #63CEED;	
+	background-color: #edcd63;	
 	color:gray;
 }
 
@@ -215,7 +224,7 @@ td {
 .editable > input {
 	width:60px;
 	text-align: center;
-	border: 1px solid #2E9DBE;
+	border: 1px solid #be632e;
 	border-radius: 4px;
 	padding: 4px;
 }
@@ -227,7 +236,7 @@ input.invalid {
 /*SVG elements*/
 #svg {
 	/*border:1px solid black;*/
-	background: #DFF5F9;
+	background: #f9f9df;
 	-webkit-user-select:none;
 	-moz-user-select:none;
 	-ms-user-select:none;
@@ -242,9 +251,9 @@ input.invalid {
 }
 
 g.node circle{
-	/*fill: #01A9DB;*/
+	/*fill: #db4601;*/
 	fill: #f8f8f8;
-	stroke:#0489B1;
+	stroke:#b10404;
 	stroke-width:1px;
 }
 
@@ -254,7 +263,7 @@ g.node:hover circle {
 
 g.node.selected circle{
 	/*fill:#D265A5 !important; */
-	stroke:#CC0B7C;
+	stroke:#cc0b0b;
 	stroke-width:2px !important;
 }
 
@@ -263,27 +272,27 @@ g.node.selected:hover circle {
 }
 
 g.node circle.link-node{
-	fill:#0489B1;
-	stroke:#0489B1;
+	fill:#b10404;
+	stroke:#b10404;
 	stroke-width:1px;
 }
 
 g.node:hover circle.link-node{
-	fill:#0489B1 !important;
+	fill:#b10404 !important;
 }
 
 g.node.selected circle.link-node{
-	fill:#CC0B7C;
-	stroke:#CC0B7C;
+	fill:#cc0b0b;
+	stroke:#cc0b0b;
 }
 
 g.node.selected:hover circle.link-node{
-	fill:#CC0B7C !important;
+	fill:#cc0b0b !important;
 }
 
 path.conn{
 	fill:none;
-	stroke:#01A9DB;
+	stroke:#db4601;
 	stroke-width:5px;
 	cursor:default;
 }
@@ -302,7 +311,7 @@ path.conn.dragline{
 }
 
 path.conn.selected{
-	stroke:#CC0B7C !important; /* change */
+	stroke:#cc0b0b !important; /* change */
 }
 
 path.conn.selected:hover {
@@ -310,7 +319,7 @@ path.conn.selected:hover {
 }
 
 path.arrow {
-	fill:#01A9DB;
+	fill:#db4601;
 }
 
 path.conn.orientated {
@@ -322,21 +331,21 @@ path.conn.orientated {
 	font-size:16px;
 	font-family: sans-serif;
 	/*fill : rgb(76, 69, 69);*/
-	fill:#0489B1;
+	fill:#b10404;
 	font-weight:400;	
 }
 
 .node-label {
 	margin: 0;
-	color: #0489B1;	
+	color: #b10404;	
 }
 .node-label:hover {
 	font-size:28px !important;
-	color: #01A9DB !important;
+	color: #db4601 !important;
 }
 
 .node-input {
-	color:#0489B1;
+	color:#b10404;
 	font-size:24px;
 }
 
@@ -359,8 +368,8 @@ path.conn.orientated {
 .instructions-text-title {
 	font-size: 20px;
 	font-family: Arial, sans-serif;
-	/*color : #0489B1;*/
-	color:#CC0B7C;		
+	/*color : #b10404;*/
+	color:#cc0b0b;		
 	padding-top: 5px;
 	font-weight:200px;
 }
@@ -370,7 +379,7 @@ path.conn.orientated {
 	font-weight: 200px;
 	font-family: Arial, sans-serif;
 	/*color : black;*/
-	color: #0489B1;
+	color: #b10404;
 }	
 
 .label-text {
@@ -385,18 +394,18 @@ path.conn.orientated {
 	font-size:12px;
 	font-family: sans-serif;
 	/*font-weight: 100;*/
-	color : #0489B1;
+	color : #b10404;
 }
 
 .footer-text {
 	font-size:14px;
 	font-family: sans-serif;
-	color : #0489B1;	
+	color : #b10404;	
 }
 
 .notice-text {
 	font-size: 16px;
-	color:#CC0B7C !important;
+	color:#cc0b0b !important;
 }
 
 .alert-text {
@@ -412,11 +421,11 @@ path.conn.orientated {
 .csv-settings-text {
 	padding-top: 7px;
 	font-size: 16px;
-	color:#0489B1;
+	color:#b10404;
 }
 
 input.csv-header {
-	color:#0489B1;
+	color:#b10404;
 	text-align: center;
 }
 

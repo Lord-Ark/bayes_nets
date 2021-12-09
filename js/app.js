@@ -269,16 +269,6 @@ var displayAbout = function() {
 		  .classed("da-slide", true)
 		  .append("p")
 		  .attr("class", "instructions-text text-justified")
-		  .html("BayANet has been developed as a third year project by Anna Aleksieva in the School of Computer Science.");
-	slider.append("div")
-		  .classed("da-slide", true)
-		  .append("p")
-		  .attr("class", "instructions-text text-justified")
-		  .html("The tool has been developed to serve as a teaching tool for COMP61011.");	
-	slider.append("div")
-		  .classed("da-slide", true)
-		  .append("p")
-		  .attr("class", "instructions-text text-justified")
 		  .html("The aim of this application is to overcome the limitations of other existing Bayesian Networks tools and to provide beginners with understanding of the core principles of BNs.");	
 
 	// Append the arrows 

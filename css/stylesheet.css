@@ -4,7 +4,7 @@ body {
 
 .navbar-title {
 	/*change to color of the left menu text?*/
-	color: #0489B1;
+	color: #b10486;
 }
 
 #hiddenUpload {
@@ -69,19 +69,19 @@ body {
 }
 
 g.node circle{
-	fill: #01A9DB;
-	stroke:#0489B1;
+	fill: #db0101;
+	stroke:#db0101;
 	stroke-width:1px;
 }
 
 g.node.selected circle{
-	fill:#2B809A !important;
+	fill:#db0101 !important;
 	stroke-width:2px !important;
 }
 
 path.conn{
 	fill:none;
-	stroke:#0489B1;
+	stroke:#db0101;
 	stroke-width:3px;
 	cursor:default;
 }
